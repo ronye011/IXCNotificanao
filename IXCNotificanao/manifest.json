@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "IXCNotificanao",
+  "version": "0.2",
+  "description": "Remove notificações do sistema IXC Provedor",
+  "icons": {
+    "16": "images/icon16_ixc.png",
+    "48": "images/icon48_ixc.png",
+    "128": "images/icon128_ixc.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/icon16_ixc.png",
+      "48": "images/icon48_ixc.png",
+      "128": "images/icon128_ixc.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

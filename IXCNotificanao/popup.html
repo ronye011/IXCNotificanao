@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Configurações de Notificações</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      padding: 15px;
+      width: 220px;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    h3 {
+      font-size: 16px;
+      margin-bottom: 12px;
+      text-align: center;
+      color: #444;
+    }
+
+    .option {
+      display: flex;
+      align-items: center;
+      background: #ffffff;
+      padding: 8px;
+      border-radius: 6px;
+      margin-bottom: 6px;
+      border: 1px solid #ddd;
+      transition: background 0.2s;
+      cursor: pointer;
+    }
+
+    .option:hover {
+      background: #f1f1f1;
+    }
+
+    input[type="checkbox"] {
+      transform: scale(1.2);
+      margin-right: 8px;
+    }
+
+    label {
+      flex-grow: 1;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    button {
+      margin-top: 12px;
+      width: 100%;
+      padding: 8px;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 14px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h3>Bloquear notificações:</h3>
+
+  <div class="option">
+    <input type="checkbox" id="notification-success">
+    <label for="notification-success">Sucesso</label>
+  </div>
+
+  <div class="option">
+    <input type="checkbox" id="notification-error">
+    <label for="notification-error">Erro</label>
+  </div>
+
+  <div class="option">
+    <input type="checkbox" id="notification-info">
+    <label for="notification-info">Info</label>
+  </div>
+
+  <div class="option">
+    <input type="checkbox" id="notification-alert">
+    <label for="notification-alert">Alerta</label>
+  </div>
+
+  <!-- Nova opção para bloquear o som -->
+  <div class="option">
+    <input type="checkbox" id="notification-sound">
+    <label for="notification-sound">Bloquear som</label>
+  </div>
+
+  <button id="save">Salvar</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
