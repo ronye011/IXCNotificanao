@@ -3,7 +3,7 @@ Extensão desenvolvida para **bloqueio das notificações e sons** do sistema **
 
 ---
 
-## Instalação?
+## Instalação
 
 1. Baixe o arquivo **.zip** deste repositório.  
 2. Extraia o conteúdo na pasta desejada.  
