@@ -1,2 +1,2 @@
 # IXCNotificanao
-Plugin desenvolvido para bloqueio das notificações e som do sistema IXC Provedor.
+Extensão desenvolvido para bloqueio das notificações e som do sistema IXC Provedor.
