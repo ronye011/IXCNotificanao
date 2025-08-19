@@ -18,11 +18,11 @@
   },
   "permissions": ["storage"],
   "host_permissions": [
-    "https://*/*"
+    "*://*/*"
   ],
   "content_scripts": [
     {
-      "matches": ["https://*/*"],
+      "matches": ["*://*/*"],
       "js": ["content.js"],
       "run_at": "document_idle"
     }
