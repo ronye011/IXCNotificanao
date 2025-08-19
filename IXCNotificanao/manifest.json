@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "IXCNotificanao",
-  "version": "0.2",
+  "version": "0.2.1",
   "description": "Remove notificações do sistema IXC Provedor",
   "icons": {
     "16": "images/icon16_ixc.png",
