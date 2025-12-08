@@ -1,22 +1,29 @@
 # IXCNotificanao  
-Extensão desenvolvida para **bloqueio das notificações e sons** do sistema **IXC Provedor**.
+Extension developed to **block notifications and sounds** from the **IXC Provedor** system.
 
 ---
 
-## Instalação
+## Installation
 
-1. Baixe o arquivo **.zip** deste repositório.  
-2. Extraia o conteúdo na pasta desejada.  
-3. Abra o navegador e vá até o **Gerenciador de Extensões**.  
-4. Ative o **Modo Desenvolvedor**.  
-5. Clique em **"Carregar sem compactação"** e selecione a pasta **IXCNotificanao** (dentro da pasta extraída).  
+1. Download the **.zip** file from this repository.
+
+2. Extract the contents to your desired folder.
+
+3. Open your browser and go to the **Extension Manager**.
+
+4. Enable **Developer Mode**.
+
+5. Click on **"Load uncompressed"** and select the **IXCNotificanao** folder (inside the extracted folder).
 
 ---
 
-## Como usar?
+## How to use?
 
-- Após a instalação, um ícone será adicionado na área de **Extensões** do navegador.  
-- Clique nele para:  
-  - Bloquear notificações específicas.  
-  - Bloquear o som, caso desejar.  
+- After installation, an icon will be added to the **Extensions** area of ​​your browser.
+
+- Click on it to:
+
+- Block specific notifications.
+
+- Block the sound, if desired.
 
